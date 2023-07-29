@@ -1,0 +1,77 @@
+.topic{
+    display: flex;
+    margin-top: 15px;
+}
+mat-icon{
+    margin-right: 10px;
+    font-size: 24px;
+}
+.topic h1{
+    font-size: 24px;
+    font-weight: bold;
+}.views-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #ececec;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .card-view{
+    margin-left: 50px;
+  }
+  .newCustomer{
+    
+    margin-right: 150px;
+  }
+  .filter{
+    margin-right: 50px;
+  }
+  .card-view,
+  .list-view,
+  .map-view,
+  .filter,
+  .newCustomer {
+    display: flex;
+    align-items: center;
+    flex-basis: 25%;
+  }
+  
+  .card-view mat-icon,
+  .list-view mat-icon,
+  .map-view mat-icon,
+  .newCustomer mat-icon {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+.table-container{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-container th,tr{
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}
+.table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+.table-container tr{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.table-container td{
+    text-align: center;
+}
+.table-container button{
+    border: none;
+    background-color: transparent;
+    color: blue;
+}
+.table-container button:hover{
+    text-decoration: underline;
+}
+.pagination{
+    text-align: center;
+    margin-top: 30px;
+}

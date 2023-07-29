@@ -1,0 +1,139 @@
+{
+    "customers": [
+      {
+        "id": 1,
+        "name": "Ravi Sharma",
+        "email": "ravi@example.com",
+        "orders": [
+          {
+            "id": 1001,
+            "product": "Saree",
+            "quantity": 2,
+            "price": 999.99
+          },
+          {
+            "id": 1002,
+            "product": "Kurta",
+            "quantity": 3,
+            "price": 699.99
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Priya Patel",
+        "email": "priya@example.com",
+        "orders": [
+          {
+            "id": 1003,
+            "product": "Jewelry Set",
+            "quantity": 1,
+            "price": 1999.99
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Amit Singh",
+        "email": "amit@example.com",
+        "orders": [
+          {
+            "id": 1004,
+            "product": "Mobile Phone",
+            "quantity": 1,
+            "price": 14999.99
+          },
+          {
+            "id": 1005,
+            "product": "Power Bank",
+            "quantity": 2,
+            "price": 499.99
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Sneha Gupta",
+        "email": "sneha@example.com",
+        "orders": [
+          {
+            "id": 1006,
+            "product": "Kurti",
+            "quantity": 2,
+            "price": 1299.99
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Aniket Verma",
+        "email": "aniket@example.com",
+        "orders": [
+          {
+            "id": 1007,
+            "product": "Cricket Bat",
+            "quantity": 1,
+            "price": 1999.99
+          },
+          {
+            "id": 1008,
+            "product": "Cricket Ball",
+            "quantity": 6,
+            "price": 49.99
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Neha Reddy",
+        "email": "neha@example.com",
+        "orders": [
+          {
+            "id": 1001,
+            "product": "Saree",
+            "quantity": 1,
+            "price": 1999.99
+          },
+          {
+            "id": 1009,
+            "product": "Bangles",
+            "quantity": 12,
+            "price": 599.99
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Aakash Sharma",
+        "email": "aakash@example.com",
+        "orders": [
+          {
+            "id": 1010,
+            "product": "Smartwatch",
+            "quantity": 1,
+            "price": 3999.99
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Tanvi Patel",
+        "email": "tanvi@example.com",
+        "orders": [
+          {
+            "id": 1002,
+            "product": "Kurta",
+            "quantity": 2,
+            "price": 899.99
+          },
+          {
+            "id": 1011,
+            "product": "Leggings",
+            "quantity": 3,
+            "price": 299.99
+          }
+        ]
+      }
+    ]
+  }
+    

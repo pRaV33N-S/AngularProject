@@ -1,0 +1,48 @@
+.form-field{
+    margin: 10px;
+    margin-left: 25px;
+}
+#firstName, #lastName, #orderTotal{
+    margin-left: 20px;
+}
+#address{
+    margin-left: 36px;
+}
+#city{
+    margin-left: 64px;
+}
+#state{
+    margin-left: 57px;
+}
+#delete{
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+#update{
+    margin-left: 10px;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+#insert{
+    margin-left: 60px;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+#cancel{
+    margin-left: 10px;
+    background-color: lightslategrey;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}

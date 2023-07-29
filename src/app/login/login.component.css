@@ -1,0 +1,25 @@
+.topic{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.word{
+    margin: 5px;
+}
+.topic p{
+    font-weight: bold;
+    font-size: 26px;   
+}
+form{
+    margin: 20px;
+}
+label{
+    margin-right: 10px; 
+}
+button{
+    margin: 5px;
+    padding: 8px;
+    color: white;
+    background-color: rgb(9, 160, 9);
+}

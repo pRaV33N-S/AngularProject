@@ -1,0 +1,21 @@
+
+<div class="topic">
+    <mat-icon>lock</mat-icon>
+    <p>LOGIN</p>
+</div>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="username">Username</label>
+      <input type="text" id="username" formControlName="username" required>
+      <div *ngIf="loginForm.get('username')?.errors?.['required']" class="word">Username is required</div>
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" id="password" formControlName="password" required>
+      <div *ngIf="loginForm.get('password')?.errors?.['required']" class="word">Password is required</div>
+      <div *ngIf="loginForm.get('password')?.errors?.['minlength']" class="word">Password should be at least 6 characters long</div>
+      <div *ngIf="loginForm.get('password')?.errors?.['pattern']" class="word">Password should contain at least one letter, one number, and one special character</div>
+    </div>
+    <button type="submit" [disabled]="!loginForm.valid">Submit</button>
+  </form>
+  

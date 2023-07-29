@@ -1,0 +1,57 @@
+<div class="topic">
+    <mat-icon>person</mat-icon>
+    <h1>Customers</h1>
+</div>
+
+<div class="views-container">
+    <div class="card-view">
+        <mat-icon>grid_view</mat-icon>
+      Card View
+    </div>
+  
+    <div class="list-view">
+        <mat-icon>view_list</mat-icon>
+      List View
+    </div>
+  
+    <div class="map-view">
+        <mat-icon>location_on</mat-icon>
+      Map View
+    </div>
+    <div class="newCustomer" >
+      <mat-icon>add</mat-icon>
+      New Customer
+    </div>
+  
+    <div class="filter">Filter  
+      <input type="text" [(ngModel)]="searchText" placeholder="Search customers">
+    </div>
+  </div>
+  
+<table class="table-container">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Order Total</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let customer of customers | filter: searchText | paginate: { itemsPerPage: 5, currentPage: currentPage }">
+        <td>{{ customer.firstName }}</td>
+        <td>{{ customer.lastName }}</td>
+        <td>{{ customer.address }}</td>
+        <td>{{ customer.city }}</td>
+        <td>{{ customer.state }}</td>
+        <td>{{ customer.orderTotal }}</td>
+        <td><button (click)="viewOrders(customer)">View Orders</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="pagination">
+    <pagination-controls (pageChange)="currentPage = $event"></pagination-controls>
+  </div>

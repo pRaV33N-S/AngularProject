@@ -1,0 +1,29 @@
+h1{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.customer{
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+.customer th{
+    background-color: rgb(184, 191, 199);
+    
+}
+.customer tr{
+    border-bottom: 1px solid #ccc;
+}
+.orders{
+    width: 40%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+.orders th{
+    background-color: rgb(184, 191, 199);
+}
+.orders tr{
+    border-bottom: 1px solid #ccc;
+}
